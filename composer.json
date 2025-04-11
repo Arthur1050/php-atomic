@@ -1,0 +1,19 @@
+{
+    "name": "arthurspar/atomic",
+    "description": "A componentization framework",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arthurspar\\Atomic\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arthur1050",
+            "email": "tostamatias@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
