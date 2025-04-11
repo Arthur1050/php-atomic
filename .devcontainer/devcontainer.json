@@ -1,0 +1,25 @@
+{
+  "name": "PHP 8.4 Development Environment",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "xdebug.php-debug",
+        "neilbrayfield.php-docblocker",
+        "mehedidracula.php-namespace-resolver",
+        "mrmlnc.vscode-apache"
+      ],
+      "settings": {
+        "php.validate.executablePath": "/usr/local/bin/php"
+      }
+    }
+  },
+  "forwardPorts": [
+    80,
+    9000
+  ],
+  "remoteUser": "vscode"
+}
